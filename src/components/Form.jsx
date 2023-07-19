@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import axios from 'axios'
 
 
+
 const Form = () => {
 
     const [title, setTitle] = useState('');
@@ -18,6 +19,7 @@ const Form = () => {
         })
             .then(res => console.log(res))
             .catch(err => console.log(err))
+
     }
 
 
